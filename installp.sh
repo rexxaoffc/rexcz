@@ -111,13 +111,13 @@ case "$OPTION" in
             echo "Blueprint belum diinstal. Instal dengan memilih opsi 11 terlebih dahulu."
             exit 1
         fi
-        REPO_URL="https://github.com/LeXcZxMoDz9/folderr.git"
+        REPO_URL="https://github.com/sevsbotz/sevsrawr.git"
         git clone "$REPO_URL" || { echo "Gagal mengkloning repositori."; exit 1; }
 
         # Menyimpan dan mengekstrak file
-        sudo mv "folderr/nebulaptero.zip" /var/www/
+        sudo mv "sevsrawr/nebulaptero.zip" /var/www/
         unzip -o /var/www/nebulaptero.zip -d /var/www/pterodactyl
-        rm -rf folderr nebulaptero.zip
+        rm -rf sevsrawr nebulaptero.zip
 
         blueprint -install nebula || { echo "Instalasi Nebula gagal."; exit 1; }
         echo "Nebula Theme berhasil diinstal!"
