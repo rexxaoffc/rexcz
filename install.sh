@@ -16,7 +16,7 @@ install_theme() {
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
     echo -e "PILIH THEME YANG INGIN DI INSTALL"
-    echo "1. nebula"
+    echo "1. stellar"
     echo "2. billing"
     echo "3. enigma"
     echo "x. kembali"
@@ -24,7 +24,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/sevsbotz/sevsrawr/raw/main/nebulaptero.zip")
+        THEME_URL=$(echo -e "https://github.com/sevsbotz/sevsrawr/raw/main/stellar.zip")
         break
         ;;
       2)
@@ -65,7 +65,7 @@ if [ "$SELECT_THEME" -eq 1 ]; then
   php artisan migrate
   yarn build:production
   php artisan view:clear
-  sudo rm /root/nebulaptero.zip
+  sudo rm /root/stellar.zip
   sudo rm -rf /root/pterodactyl
 
   echo -e "                                                       "
