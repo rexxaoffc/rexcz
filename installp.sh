@@ -75,7 +75,7 @@ case "$OPTION" in
         # Menginstal Tema Elysium
         echo "Menginstal Elysium Theme..."
         REPO_URL="https://github.com/sevsbotz/rawr.git"
-        TEMP_DIR="folderr"
+        TEMP_DIR="rawr"
 
         git clone "$REPO_URL" "$TEMP_DIR" || { echo "Gagal mengkloning repositori."; exit 1; }
 
