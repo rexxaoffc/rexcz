@@ -253,8 +253,8 @@ fi
     GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://github.com/LeXcZxMoDz9/folderr.git"
-    TEMP_DIR="folderr"
+    REPO_URL="https://github.com/sevsbotz/sevsrawr.git"
+    TEMP_DIR="sevsrawr"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
@@ -278,8 +278,8 @@ fi
     GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://github.com/LeXcZxMoDz9/folderr.git"
-    TEMP_DIR="folderr"
+    REPO_URL="https://github.com/sevsbotz/sevsrawr.git"
+    TEMP_DIR="sevsrawr"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
