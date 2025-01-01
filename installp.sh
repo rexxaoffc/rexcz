@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ADMIN_WHATSAPP_NUMBER="79105052657"
+ADMIN_WHATSAPP_NUMBER="6281295826901"
 
 WHATSAPP_FILE="/var/whatsapp_number.txt"
 LICENSE_FILE="/var/license.txt"
@@ -74,7 +74,7 @@ case "$OPTION" in
     1)
         # Menginstal Tema Elysium
         echo "Menginstal Elysium Theme..."
-        REPO_URL="https://github.com/LeXcZxMoDz9/folderr.git"
+        REPO_URL="https://github.com/sevsbotz/rawr.git"
         TEMP_DIR="folderr"
 
         git clone "$REPO_URL" "$TEMP_DIR" || { echo "Gagal mengkloning repositori."; exit 1; }
