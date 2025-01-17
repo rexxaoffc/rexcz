@@ -328,11 +328,11 @@ cd /var/www/pterodactyl || { echo "Direktori tidak ditemukan"; exit 1; }
 # Membuat lokasi baru
 php artisan p:user:make <<EOF
 yes
-sevs@sevsbotz.xyz
-sevsbotz
-sevsbotz
-sevsbotz
-sevsbotz
+rexcz@no.counter
+rexcz
+rexcz
+rexcz
+rexcz
 EOF
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
@@ -352,10 +352,10 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                            ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                           ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                                          ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer SEVSBOTZ   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer REXCZ   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      -----------------------------------  ${NC}"
-  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : @sevskmtl        ${NC}"
-  echo -e "${RED} ggg.    '.'''ggggggp           • Support By SEVSBOTZ  ${NC}"
+  echo -e "${RED}ggg:     gg.     -   ,ggg       • Telegram : @rexxadev        ${NC}"
+  echo -e "${RED} ggg.    '.'''ggggggp           • Support By Lexcz  ${NC}"
   echo -e "${RED}  'ggg    '-.__                                                      ${NC}"
   echo -e "${RED}    ggg                                                              ${NC}"
   echo -e "${RED}      ggg                                                            ${NC}"
